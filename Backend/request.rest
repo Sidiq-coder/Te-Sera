@@ -1,0 +1,26 @@
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+  "username": "sidiq1",
+  "password": "123"
+}
+
+###
+POST http://localhost:5000/signup
+Content-Type: application/json
+
+{
+  "username": "sidiq1 ",
+  "password": "123",
+  "email": "sidiq1@example.com",
+  "nama": "M Sidiq F",
+  "tanggalLahir": "1990-01-01",
+  "foto": "null",
+  "alamatTinggal": "manajaja"
+}
+
+###
+GET http://localhost:5000/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsImlhdCI6MTc0NzE3MTk4MSwiZXhwIjoxNzQ3MTcyODgxfQ.onSZtAlye4Ylc-LuwTbHMetPejvKrl07XgnyGfr1yZ8
+Accept: application/json
