@@ -14,10 +14,10 @@ const Navbar = () => {
     } font-semibold`;
 
   return (
-    <nav className="bg-white w-full shadow-sm fixed top-0 z-50 h-[77px] font-inter">
+    <nav className="bg-white w-full shadow-sm fixed top-0 z-50 h-[77px] font-Inter">
       <div className="max-w-7xl mx-auto px-6 h-full flex items-center justify-between">
-        <div onClick={() => navigate("/")} className="text-2xl font-bold tracking-wide font-lora">
-          <span className="text-red-500">te</span>
+        <div onClick={() => navigate("/")} className="text-2xl tracking-wide font-Mixed italic">
+          <span className="text-orange-500">te</span>
           <span className="italic">sera</span>
         </div>
 

@@ -5,6 +5,7 @@ export default {
       fontFamily: {
         lora: ['Lora', 'serif'],
         inter: ['Inter', 'sans-serif'],
+        Mixed: ['Mixed', 'serif'],
       },
       animation: {
         marquee: 'marquee 20s linear infinite',
