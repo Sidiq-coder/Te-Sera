@@ -1,5 +1,4 @@
 import { useState } from "react";
-import api from "../lib/axios.js";
 import AuthFormField from "../components/AuthFormField.jsx";
 import Navbar from "../components/Navbar.jsx";
 

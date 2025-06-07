@@ -22,5 +22,5 @@ Content-Type: application/json
 
 ###
 GET http://localhost:5000/me
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsImlhdCI6MTc0NzE3MTk4MSwiZXhwIjoxNzQ3MTcyODgxfQ.onSZtAlye4Ylc-LuwTbHMetPejvKrl07XgnyGfr1yZ8
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQsImlhdCI6MTc0OTI3MDEyMiwiZXhwIjoxNzQ5MjcxMDIyfQ.JFcNe1It4T9bsckPynryULs5WTKbuVTADYB-IXMZgpw
 Accept: application/json
